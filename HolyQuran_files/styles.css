@@ -1,0 +1,21 @@
+@font-face {
+  font-family: ArabicFont;
+  src: url(arabic_font.ttf);
+}
+
+* {
+  font-family: "ArabicFont", serif !important;
+  line-height: 1.85 !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}
+.prose {
+  padding: 2%;
+  margin: 0px;
+  width: 95%;
+}
+
+.surah_container {
+    font-size: 140%;
+    line-height: 180%
+}
